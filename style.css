@@ -214,3 +214,27 @@ span{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 820px){
+    header{
+        flex-direction: column;
+    }
+    .container-2{
+        flex-direction: column;
+    }
+    .container-3, .carreras, div{
+        flex-wrap: wrap;
+        margin-top: 15px;
+        }
+
+    .container-3{
+        height: 1550px;
+    }    
+}
+
+@media (max-width: 640px){
+    .container-5 h2{
+        text-align: center;
+    }
+}    
+
